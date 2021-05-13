@@ -2,14 +2,14 @@
 
 [Header
   fullWidth:true
-  title:"CSE412 Final Project Template"
+  title:"Comic Explorator"
   subtitle:"Use this structure to get started, but make the narrative your own!"
-  author:"Jane Hoffswell"
+  author:"Rodion Dovhan, Johnny He, Yinzhou Wang"
   authorLink: "
   https://courses.cs.washington.edu/courses/cse412/21sp/index.html"
-  date:"Apr 6, 2021"
+  date:"May 12, 2021"
   background:"#33333f"
-  color:"#ffffff"
+  color:"#DAA520"
    /]
 
 The final project will provide hands-on experience designing, implementing, and deploying interactive visualizations for the web. For this project, you will select a topic of interest and author a narrative article and accompanying visualizations to educate and inform a general audience. Think of your project as contributing to our own class newspaper or scientific magazine. The final deliverable will take the form of an explanatory narrative, deployed as an interactive web page using GitHub Pages. You will leverage the template and style provided here. 
