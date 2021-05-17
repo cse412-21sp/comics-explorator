@@ -301,3 +301,7 @@ Make sure your post has been built, then commit the `docs` folder to your projec
 #### Acknowledgements
 
 This template was adapted from the initial Scrollytelling template for Idyll. The code and visualization examples were adapted from the [final project template](https://github.com/cse412-21w/project-demo) created for a previous offering of CSE 412.
+
+[FullWidth]
+[TableauEmbed link:"https://public.tableau.com/views/comic_self_trial/Sheet1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link" width:"100%" height:"600"/]
+[/FullWidth]
