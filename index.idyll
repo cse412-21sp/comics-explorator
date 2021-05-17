@@ -3,7 +3,7 @@
 [Header
   fullWidth:true
   title:"Comic Explorator"
-  subtitle:"Use this structure to get started, but make the narrative your own!"
+  subtitle:"Subtitle"
   author:"Rodion Dovhan, Johnny He, Yinzhou Wang"
   authorLink: "
   https://courses.cs.washington.edu/courses/cse412/21sp/index.html"
@@ -12,17 +12,12 @@
   color:"#DAA520"
    /]
 
-The final project will provide hands-on experience designing, implementing, and deploying interactive visualizations for the web. For this project, you will select a topic of interest and author a narrative article and accompanying visualizations to educate and inform a general audience. Think of your project as contributing to our own class newspaper or scientific magazine. The final deliverable will take the form of an explanatory narrative, deployed as an interactive web page using GitHub Pages. You will leverage the template and style provided here. 
+## Introduction 
 
-## The theme is data visualization for communicating scientific advancements or social phenomena. How might data visualization help us better understand the workings of our society or our physical world?
+![example](./static/images/example.png)
+Some background, analysis questions, our narrative, and visualization techinques.
 
-Your project must visualize one or more publicly accessible datasets of social or scientific importance. You are free to choose a specific domain of personal interest; for example, you might explore data relevant to your UW major. Example topics include transportation, economic development, humanitarian aid, legislative voting records, and communicating scientific research, among many others. Talk to the course staff if you have any questions regarding the project theme.
-
-This template was created with [Idyll](https://idyll-lang.org/docs), which is a markup language for creating beautiful interactive webpages. For your own webpage, you can customize the particular components and layouts that are used, but the style of the overall page is predefined by our course theme. 
-
-Keep reading for examples of how to embed visualizations and modify the format.
-
-### Embedding Visualizations
+## Technology Advancement and Comics
 
 We can easily embed images inline by including a short code snippet referencing an image file: `![example](./static/images/banner.png)`
 
@@ -265,38 +260,6 @@ There's a better way, though. What if we create our own new custom component? Th
 You can also use the Vega-Lite API like in the following example, found in `components/my-api-viz.js`.
 
 [MyAPIViz actions:false data:sunshine width:"container"/]
-
-# Getting Started with Your Project
-
-This template is a starting place for your project. Update the header information to include the relevant details for your project, and then feel free to mix and match the visualization and layout techniques introduced here for your own narrative. Use this template and especially the [Idyll documentation](https://idyll-lang.org/docs) as a reference for what you can do.
-
-Think about how the narrative structure draws readers into the story you are telling and how the visualizations interact with the text (and with each other). The narrative should help ensure that the page as a whole is greater than just the sum of its parts. When designing your page, decide on particular layouts that enhance the reader's experience and understanding of the topic.
-
-## Required Software
-
-You must have Node.js installed. You can get it directly from https://nodejs.org/en/.
-
-## Installation
-
-- Clone and open your project repo on your own computer.
-- Make sure you have `idyll` installed (`npm i -g idyll`).
-- Run `npm install` to install project-specific dependencies.
-
-npm is the node package manager. If you're curious how this works and what the project dependencies are, open up `package.json` to see where these are listed.
-
-You can install custom dependencies by running `npm install <package-name> --save`. Note that any collaborators will also need to download the package locally by running `npm install` after pulling the changes.
-
-## Developing a post locally
-
-Run `idyll` from the command line. Your post will appear at [http://localhost:3000/](http://localhost:3000/). When the server is running, any local change that you make will be deteched and your webpage will auto-update with the new changes. Your local changes will not be visible to your team members until you push the changes to your repository. These changes will not be reflected in the final website unless you run the build script and push the updated docs folder (see below).
-
-## Building a post for production
-
-Run `idyll build`. The output will appear in the top-level `build` folder. To change the output location, change the `output` option in `package.json`, such as to `docs`.
-
-## Deploying
-
-Make sure your post has been built, then commit the `docs` folder to your project repository. It will be available at [cse412-21sp.github.io/your-repo-name/](). For example, you can view the sample embedded Tableau, vega-lite, and d3 charts at [https://jhoffswell.github.io/cse412-project-template-idyll/](https://jhoffswell.github.io/cse412-project-template-idyll/).
 
 #### Acknowledgements
 
