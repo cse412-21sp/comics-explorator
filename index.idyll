@@ -25,12 +25,16 @@ vs Print Comics** in different country and how people's preference reveal our so
 
 ### Global comics market.
 First, let's take a look at the global comics market.
-
+![GlobalComicsMarket](./static/images/Global_Comics_Market.png)
+//[TableauEmbed link:"https://public.tableau.com/views/Global_Comics_Market/Sheet1?:language=zh-Hans&:display_count=y&publish=yes&:origin=viz_share_link" width:"100%" height:"200"/]
+// Will change to D3 later
+// [data name:"Global_Comics_Market" source:"Global_Comics_Market.csv" /]
+// [GlobalComicsMarket data:Global_Comics_Market /]
 
 WOW! What a difference. It seems like digital comics is much more popular in Asian countries than in the
 Western country. To find out why, let's take a closer look into the U.S and Japan.
 
-
+[Template](https://www.d3-graph-gallery.com/graph/treemap_custom.html)
 ### Comics Market in the U.S and Japan
 Both U.S and Japan has a long comics/manga history, and comics industry are thriving in these two countries.
 Looking into data from these two countries could give us some insights.
@@ -45,7 +49,7 @@ Look at the data........let's anaylse in the next sub section.
 Let's look at the publisher shares first
 
 
-In japan, the......only......, while in the U.S Marvel and DC has control.....
+In japan, the......only......, while in the U.S Marvel and DC has controlled.....
 
 
 
