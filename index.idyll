@@ -59,7 +59,25 @@ What about the general book market?
 
 Clearly, digital books more popular in ........
 
+### Comics vs Manga Popularity in the US
 
+Data from Google Trends 2004-Today
+
+Comics - blue, Manga - pink
+
+[FullWidth]
+[ObservableEmbed link:"https://observablehq.com/embed/@rodion/manga-vs-comics-popularity-in-the-us?cells=chart"width:"100%" height:"650"/]
+[/FullWidth]
+
+### Comics vs Manga Popularity Worlwide
+
+Data from Google Trends
+
+Values measure std. from 50/50 split between Comics/Manga
+
+[FullWidth]
+[ObservableEmbed link:"https://observablehq.com/embed/@rodion/comics-vs-manga-popularity-worlwide?cells=cell%2Cchart"width:"100%" height:"650"/]
+[/FullWidth]
 
 
 ## What type of appearances/abilities do people like the most from comic characters?
@@ -133,11 +151,7 @@ The main thing to note when using the API is that you must call `.toSpec()` at t
 
 [span style:`{color:'#aaa', fontStyle:'italic'}`]Fun Fact: Using the `.toSpec()` function is an easy way to port visualizations from Observable to your final webpage. Develop your designs in Observable as normal, then copy the JSON specification as follows: `JSON.stringify(myVis.toSpec())`, where `myVis` is the name of the variable containing your visualization. The `JSON.stringify` function allows you to copy the text (string) version of the JSON object. Note that you may have to adjust the JSON spec slightly when adding it to the `IdyllVegaLite` component in order to import your data appropriately.[/span]
 
-#### Embedding D3 visualizations
 
-Idyll has a pre-supported component for rendering D3 visualizations; to create a visualization, you can write a new component that extends this custom class. To see how this work, take a look at the file `d3-sunshine` in the `components` directory. In essence, you will create a seperate custom D3 component for each visualization that you would like to create in D3 for your page.
-
-[D3Sunshine data:sunshine /]
 
 #### Embedding Tableau visualizations
 
