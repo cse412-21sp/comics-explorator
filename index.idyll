@@ -90,15 +90,22 @@ First, here's a chart comparing the gender ratio among manga and comics:
 
 
 ### 	Number of female vs male characters along the years
+[div]
 
 [TableauEmbed link:"https://public.tableau.com/views/Book2_16222571306790/Sheet3?:language=en-US&:display_count=n&:origin=viz_share_link" width:"120%" height:"380"/]
 
 [TableauEmbed link:"https://public.tableau.com/views/Book2_16222571306790/Sheet4?:language=en-US&:display_count=n&:origin=viz_share_link" width:"120%" height:"380"/]
 
+[/div]
 
 ###   Sales Ranking 2019Dec - 2020Mar Comics
-![comics](./static/images/Sheet6.png)
+[FullWidth]
+[ObservableEmbed link:"https://observablehq.com/embed/1d6a39a66067d03c?cells=viewof+replay%2Cchart"width:"100%" height:"650"/]
+[/FullWidth]
 
+[FullWidth]
+[ObservableEmbed link:"https://observablehq.com/embed/99862c672ddb5682?cells=viewof+replay%2Cchart"width:"100%" height:"650"/]
+[/FullWidth]
 ## Sentiment (alignment of heroes) trends around the world and by regions and by years
 
 
