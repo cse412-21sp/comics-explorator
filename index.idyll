@@ -8,8 +8,8 @@
   authorLink: "
   https://courses.cs.washington.edu/courses/cse412/21sp/index.html"
   date:"May 12, 2021"
-  background:"#33333f"
-  color:"#DAA520"
+  background:"url(static/images/super.png)" 
+  color:"#57A0D3"
    /]
 
 ## Overview
@@ -83,13 +83,18 @@ Values measure std. from 50/50 split between Comics/Manga
 
 (Location of this section subject to change)
 First, here's a chart comparing the gender ratio among manga and comics:
-![sexratiochart1](./static/images/Sheet2.png)
-![sexratiochart2](./static/images/Sheet3.png)
+[TableauEmbed link:"https://public.tableau.com/views/Book1_16220689971040/Sheet3?:language=en-US&:display_count=n&:origin=viz_share_link" width:"120%" height:"550"/]
+
+[TableauEmbed link:"https://public.tableau.com/views/Book1_16220689971040/Sheet2?:language=en-US&:display_count=n&:origin=viz_share_link" width:"120%" height:"580"/]
 
 
 
 ### 	Number of female vs male characters along the years
-To Be Continued
+
+[TableauEmbed link:"https://public.tableau.com/views/Book2_16222571306790/Sheet3?:language=en-US&:display_count=n&:origin=viz_share_link" width:"120%" height:"380"/]
+
+[TableauEmbed link:"https://public.tableau.com/views/Book2_16222571306790/Sheet4?:language=en-US&:display_count=n&:origin=viz_share_link" width:"120%" height:"380"/]
+
 
 ###   Sales Ranking 2019Dec - 2020Mar Comics
 ![comics](./static/images/Sheet6.png)
