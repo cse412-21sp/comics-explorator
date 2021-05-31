@@ -2,6 +2,7 @@
   "name": "cse412-fp-template",
   "version": "1.0.0",
   "license": "MIT",
+  "googleFonts": ["Coming Soon"],
   "idyll": {
     "context": "./context.js",
     "theme": "default",

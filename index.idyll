@@ -1,118 +1,153 @@
-[meta title:"CSE412 Final Project" description:"The initial template for the CSE412 Final Projects (Spring 2021)" /]
 
-[Header
-  fullWidth:true
-  title:"Comic Explorator"
-  subtitle:"Use this structure to get started, but make the narrative your own!"
-  author:"Rodion Dovhan, Johnny He, Yinzhou Wang"
-  authorLink: "
-  https://courses.cs.washington.edu/courses/cse412/21sp/index.html"
-  date:"May 12, 2021"
-  background:"url(static/images/super.png)" 
-  color:"#57A0D3"
+[meta title:"CSE412 Final Project"
    /]
 
-## Overview
-General Idea: how comics reveal our society.
+
+[div fullWidth:true className:"container"]
+
+  [Caption row:1 column:1 width:4 height:1 style:`{
+    background: '#E7E3D0',
+    color: 'black'
+  }`]
+    [h1 style:`{marginBottom: 0}`][span style:`{color: 'rgb(81, 93, 255)'}`]Comic[/span] Explorator[/h1]
+    How Trends in Comics Around the World Reveal Our Society
+
+    [h4 style:`{marginTop: 0}`]By [a style:`{color: 'black', textDecoration: 'underline'}` href:"https://github.com/cse412-21sp/comics-explorator"]Rodion Dovhan, Johnny He, Yinzhou Wang[/a][/h4]
+  [/Caption]
+
+  [Caption row:2 column:1 width:4 height:1 style:`{
+    background: '#FFFFFF',
+    color: 'black',
+    padding: '0 100px'
+  }`]
+
+    ### Comic books are still very popular around the world, but in the recent decades there has been a shift as to what the readers like more
+    ### Firstly, let's take a look at the global sales
+  [/Caption]
+  [Caption row:3 column:2 width:3 height:2 style:`{
+    background: '#FFFFFF',
+    color: 'black'
+  }`]
+
+    ![GlobalComicsMarket](./static/images/Global_Comics_Market.png)
+    //[TableauEmbed link:"https://public.tableau.com/views/Global_Comics_Market/Sheet1?:language=zh-Hans&:display_count=y&publish=yes&:origin=viz_share_link" width:"100%" height:"200"/]
+    // Will change to D3 later
+    // [data name:"Global_Comics_Market" source:"Global_Comics_Market.csv" /]
+    // [GlobalComicsMarket data:Global_Comics_Market /]
+
+  [/Caption]
+
+  [Caption row:3 column:1 width:1 height:2 alt:true style:`{textAlign: 'center'}`]
+    ### Global comics market
+    We can see that the digital comics are much more popular in Japan than in the US.
+    In fact, Japan's digital comics revenues are bigger than the revenue from print and digital in the US combined
+  [/Caption]
+
+  [Caption row:5 column:1 width:4 height:1 style:`{
+    background: '#FFFFFF',
+    color: 'black',
+    padding: '0 100px'
+  }`]
+
+    ## Why such a big difference you ask?
+    [h3] Asian countries have larger digital comics platforms because their societies are more technological[/h3]
+
+    [h3] Also, [a style:`{color: 'rgb(255, 160, 155)'}`]Manga[/a] -  a unique Japanese
+    comics style that is very popular, not only in Japan, but around the world[/h3]
+
+  [/Caption]
+
+  [Caption row:6 column:1 width:4 height:2 style:`{
+    background: '#FFFFFF',
+    color: 'black'
+  }`]
+
+    [ObservableEmbed link:"https://observablehq.com/embed/@rodion/comics-vs-manga-popularity-worlwide?cells=title%2Ccell%2Cchart" width:"100%" height:"600"/]
+  [/Caption]
+
+  [Caption row:8 column:1 width:1 height:2 style:`{background: 'rgb(255, 140, 140)'}`]
+    ## Popularity Trends in the US
+    Manga has been overtaking American Comics even in the US
+  [/Caption]
+
+  [Caption row:8 column:2 width:3 height:2 style:`{
+    background: '#FFFFFF',
+    color: 'black'
+  }`]
+  ![example](./static/images/ustrends.jpg)
+  [/Caption]
+
+  [Panel className:"hide-mobile" row:10 column:4 width:1 height:1 color:"#9ec8ff" /]
+
+  [Caption row:10 column:1 width:3 height:1 style:`{
+    background: '#fff',
+    color: '#2A2430'
+  }`]
+    # The sheer difference in the magnitude of numbers with which Manga is outselling Comics speaks volumes
+  [/Caption]
+
+  [Caption row:11 column:1 width:2 height:1 style:`{
+    background: '#FFFFFF',
+    color: 'black'
+  }`]
+  [TableauEmbed link:"https://public.tableau.com/views/Book2_16222571306790/Sheet4?:language=en-US&:display_count=n&:origin=viz_share_link" width:"110%" height:"360"/]
+
+  [/Caption]
+
+  [Caption row:11 column:3 width:2 height:1 style:`{
+    background: '#FFFFFF',
+    color: 'black'
+  }`]
+  [TableauEmbed link:"https://public.tableau.com/views/Book2_16222571306790/Sheet3?:language=en-US&:display_count=n&:origin=viz_share_link" width:"110%" height:"360"/]
+
+  [/Caption]
+
+  [Caption row:15 column:1 width:2 height:1 style:`{
+    background: '#fff',
+    color: '#000'
+  }`]
+    ##..so why do people seem like Manga more now?
+
+  [/Caption]
+
+  [Caption row:16 column:3 width:2 height:1 style:`{
+    background: '#fff',
+    color: '#000'
+  }`]
+    ###To answer that we should first look at the gender rations in Comics and Manga
+  [/Caption]
+
+  [Caption row:18 column:1 width:3 height:1 style:`{
+    background: '#FFFFFF',
+    color: 'black'
+  }`]
+  [TableauEmbed link:"https://public.tableau.com/views/Book1_16220689971040/Sheet3?:language=en-US&:display_count=n&:origin=viz_share_link" width:"106%" height:"500"/]
+
+  [/Caption]
+
+  [Caption row:20 column:2 width:3 height:1 style:`{
+    background: '#FFFFFF',
+    color: 'black'
+  }`]
+  [TableauEmbed link:"https://public.tableau.com/views/Book1_16220689971040/Sheet2?:language=en-US&:display_count=n&:origin=viz_share_link" width:"106%" height:"500"/]
+
+  [/Caption]
+
+  [Caption row:22 column:1 width:4 height:2 style:`{
+    background: '#FFFFFF',
+    color: 'black',
+    padding: '0 100px'
+  }`]
 
 
-## Digital Comics vs Print Comics
-Technology advancements are changing the comics industry dramatically. In particularly, the potential
-of digital comics should not to be underestimated. In this section, we are going to look **Digital Comics
-vs Print Comics** in different country and how people's preference reveal our society.
-![example](./static/images/digitalcomicsvsprint.jpg)
+    [h3] As we see Manga has a noticeably bigger ratio of females to males. That is because Manga targets larger demographics.
+    While American Comics mostly targets males, Manga also targets females with Josei and Shojo genres. Besides that Manga doesn't only
+    include stories about superheroes, but also sports, detectives, fantasy, comedy, etc. [/h3]
 
 
-### Global comics market.
-First, let's take a look at the global comics market.
-![GlobalComicsMarket](./static/images/Global_Comics_Market.png)
-//[TableauEmbed link:"https://public.tableau.com/views/Global_Comics_Market/Sheet1?:language=zh-Hans&:display_count=y&publish=yes&:origin=viz_share_link" width:"100%" height:"200"/]
-// Will change to D3 later
-// [data name:"Global_Comics_Market" source:"Global_Comics_Market.csv" /]
-// [GlobalComicsMarket data:Global_Comics_Market /]
+    [h2]In other words, Manga is much more diverse and appealing to a broader demographics[/h2]
 
-WOW! What a difference. It seems like digital comics is much more popular in Asian countries than in the
-Western country. To find out why, let's take a closer look into the U.S and Japan.
-
-[Template](https://www.d3-graph-gallery.com/graph/treemap_custom.html)
-### Comics Market in the U.S and Japan
-Both U.S and Japan has a long comics/manga history, and comics industry are thriving in these two countries.
-Looking into data from these two countries could give us some insights.
-
-
-
-
-Look at the data........let's anaylse in the next sub section.
-
-
-### Publisher share and book market.
-Let's look at the publisher shares first
-
-
-In japan, the......only......, while in the U.S Marvel and DC has controlled.....
-
-
-
-What about the general book market?
-
-
-
-Clearly, digital books more popular in ........
-
-### Comics vs Manga Popularity in the US
-
-Data from Google Trends 2004-Today
-
-Comics - blue, Manga - pink
-
-[ObservableEmbed link:"https://observablehq.com/embed/@rodion/manga-vs-comics-popularity-in-the-us?cells=chart"width:"100%" height:"650"/]
-
-
-### Comics vs Manga Popularity Worlwide
-
-Data from Google Trends
-
-Values measure std. from 50/50 split between Comics/Manga
-
-
-[ObservableEmbed link:"https://observablehq.com/embed/@rodion/comics-vs-manga-popularity-worlwide?cells=cell%2Cchart"width:"100%" height:"422"/]
-
-
-
-## What type of appearances/abilities do people like the most from comic characters?
-
-(Location of this section subject to change)
-First, here's a chart comparing the gender ratio among manga and comics:
-[TableauEmbed link:"https://public.tableau.com/views/Book1_16220689971040/Sheet3?:language=en-US&:display_count=n&:origin=viz_share_link" width:"120%" height:"550"/]
-
-[TableauEmbed link:"https://public.tableau.com/views/Book1_16220689971040/Sheet2?:language=en-US&:display_count=n&:origin=viz_share_link" width:"120%" height:"580"/]
-
-
-
-### 	Number of female vs male characters along the years
-[div]
-
-[TableauEmbed link:"https://public.tableau.com/views/Book2_16222571306790/Sheet3?:language=en-US&:display_count=n&:origin=viz_share_link" width:"120%" height:"380"/]
-
-[TableauEmbed link:"https://public.tableau.com/views/Book2_16222571306790/Sheet4?:language=en-US&:display_count=n&:origin=viz_share_link" width:"120%" height:"380"/]
+  [/Caption]
 
 [/div]
 
-###   Sales Ranking 2019Dec - 2020Mar Comics
-[FullWidth]
-[ObservableEmbed link:"https://observablehq.com/embed/1d6a39a66067d03c?cells=viewof+replay%2Cchart"width:"100%" height:"650"/]
-[/FullWidth]
-
-[FullWidth]
-[ObservableEmbed link:"https://observablehq.com/embed/99862c672ddb5682?cells=viewof+replay%2Cchart"width:"100%" height:"650"/]
-[/FullWidth]
-## Sentiment (alignment of heroes) trends around the world and by regions and by years
-
-
-### Popularity Trends around the world
-
-
-
-#### Acknowledgements
-
-This template was adapted from the initial Scrollytelling template for Idyll. The code and visualization examples were adapted from the [final project template](https://github.com/cse412-21w/project-demo) created for a previous offering of CSE 412.

@@ -1,55 +1,179 @@
-.d3-component svg {
-  background: #ddd;
-  max-height: 300px;
+
+@font-face {
+  font-family: 'Komika Hand';
+  src: url('/static/fonts/KomikaHand-Italic.woff2') format('woff2'),
+      url('/static/fonts/KomikaHand-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
 }
 
-.vg-tooltip table {
-  margin-bottom: 0px;
+@font-face {
+  font-family: 'Komika Hand';
+  src: url('/static/fonts/KomikaHand.woff2') format('woff2'),
+      url('/static/fonts/KomikaHand.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media all and (max-width: 1000px) {
-  .d3-component svg {
-    max-height: 200px;
+@font-face {
+  font-family: 'Komika Hand';
+  src: url('/static/fonts/KomikaHand-Bold.woff2') format('woff2'),
+      url('/static/fonts/KomikaHand-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Komika Hand';
+  src: url('/static/fonts/KomikaHand-BoldItalic.woff2') format('woff2'),
+      url('/static/fonts/KomikaHand-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+/* Put your custom styles here */
+
+.idyll-root {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 960px;
+  widows: 100%;
+  margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(calc((100vh - 60px) / 4), 1fr));
+    /* grid-auto-rows: 80px; */
+    grid-auto-flow: dense;
+    width: 100%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin: 20px 0;
+    /* margin: -6px 0 0 -6px; */
+}
+
+.panel, .caption {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  /* background: red; */
+  border: solid 5px black;
+
+  text-align: center;
+  margin: 0 auto;
+  /* align-items: flex-end; */
+  overflow: hidden;
+}
+
+.panel.embed {
+  cursor: pointer;
+}
+.panel.embed:hover {
+  border-color: rgb(97, 34, 251);
+}
+
+.isvg {
+  margin: 0 auto;
+  display: block;
+}
+
+svg {
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+}
+
+.panel svg {
+  opacity: 0.25;
+  filter: blur(0.25rem);
+  cursor: pointer;
+  transition: opacity 1s;
+  transition: filter 0.25s;
+}
+
+.panel svg:hover {
+  opacity: 0.85;
+  filter: blur(2px);
+}
+
+.revealed svg,
+.revealed svg:hover {
+  opacity: 1;
+  filter: blur(0);
+}
+
+@media(max-width:800px) {
+  .container {
+    grid-auto-columns: 1fr;
+  }
+
+  .panel, .caption {
+    font-size: 0.7em;
+  }
+  .fullscreen iframe {
+    transform: scale(0.33);
+  }
+  .hide-mobile {
+    display: none;
   }
 }
 
-.idyll-scroll .idyll-text-container {
-  max-width: 50vw;
+iframe {
+  border: none;
 }
 
-.idyll-scroll-text .idyll-step {
-  max-width: 45vw;
+.fullscreen {
+  width: 100%;
 }
 
-.d3-component-container {
-  height: 20vw;
-  width: 20vw;
-  margin-left: 72vw;
+.fullscreen iframe {
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  width: 200%;
+  height: 200%;
+  overflow-y: auto;
 }
 
-#idyll-scroll-1 > .idyll-scroll-graphic {
-  background: #33333f;
+.fullscreen.fullscreen-enabled iframe {
+  transform: none;
+  transform-origin: auto;
+  width: 100%;
+  height: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-  .idyll-scroll .idyll-text-container {
-    max-width: 57vw;
-  }
-
-  .idyll-scroll-text .idyll-step {
-    max-width: 57vw;
-  }
-
-  .d3-component-container {
-    height: 31vw;
-    width: 31vw;
-    margin-left: 65vw;
-  }
+.caption {
+  font-family: 'Komika Hand';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  background: #F46151;
+  color: white;
 }
 
-/* some custom css */
+.caption.alt {
+  background: #485A7E;
+}
+
+.caption h1 {
+  border-bottom: none;
+  font-weight: normal;
+  /* margin-bottom: 0; */
+}
 
 
-.article-header {
-  background-image: url('/static/images/super.png');
+.caption h2 {
+  /* margin-top: 0; */
+  border-bottom: none;
+  font-weight: normal;
+}
+.caption h3, .caption h4 {
+  border-bottom: none;
+  font-weight: normal;
 }
