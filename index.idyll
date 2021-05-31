@@ -29,11 +29,7 @@
     color: 'black'
   }`]
 
-    ![GlobalComicsMarket](./static/images/Global_Comics_Market.png)
-    //[TableauEmbed link:"https://public.tableau.com/views/Global_Comics_Market/Sheet1?:language=zh-Hans&:display_count=y&publish=yes&:origin=viz_share_link" width:"100%" height:"200"/]
-    // Will change to D3 later
-    // [data name:"Global_Comics_Market" source:"Global_Comics_Market.csv" /]
-    // [GlobalComicsMarket data:Global_Comics_Market /]
+    [ObservableEmbed link:"https://observablehq.com/embed/@wyzxxywl/globalcomicsmarket?cells=chart"width:"110%" height:"650"/]
 
   [/Caption]
 
@@ -43,7 +39,23 @@
     In fact, Japan's digital comics revenues are bigger than the revenue from print and digital in the US combined
   [/Caption]
 
-  [Caption row:5 column:1 width:4 height:1 style:`{
+  [Caption row:5 column:1 width:2 height:2 style:`{
+    background: '#FFFFFF',
+    color: 'black'
+  }`]
+  [TableauEmbed link:"https://public.tableau.com/views/Comics-NA-Sales/Dashboard1?:language=zh-CN&:display_count=n&:origin=viz_share_link" width:"110%" height:"360"/]
+
+  [/Caption]
+
+  [Caption row:5 column:3 width:2 height:2 style:`{
+    background: '#FFFFFF',
+    color: 'black'
+  }`]
+  [TableauEmbed link:"https://public.tableau.com/views/JapanComicsMarketSales/Dashboard12?:language=zh-CN&:display_count=n&:origin=viz_share_link" width:"110%" height:"360"/]
+
+  [/Caption]
+
+  [Caption row:7 column:1 width:4 height:1 style:`{
     background: '#FFFFFF',
     color: 'black',
     padding: '0 100px'
@@ -57,7 +69,7 @@
 
   [/Caption]
 
-  [Caption row:6 column:1 width:4 height:2 style:`{
+  [Caption row:8 column:1 width:4 height:2 style:`{
     background: '#FFFFFF',
     color: 'black'
   }`]
@@ -65,12 +77,12 @@
     [ObservableEmbed link:"https://observablehq.com/embed/@rodion/comics-vs-manga-popularity-worlwide?cells=title%2Ccell%2Cchart" width:"100%" height:"600"/]
   [/Caption]
 
-  [Caption row:8 column:1 width:1 height:2 style:`{background: 'rgb(255, 140, 140)'}`]
+  [Caption row:10 column:1 width:1 height:2 style:`{background: 'rgb(255, 140, 140)'}`]
     ## Popularity Trends in the US
     Manga has been overtaking American Comics even in the US
   [/Caption]
 
-  [Caption row:8 column:2 width:3 height:2 style:`{
+  [Caption row:10 column:2 width:3 height:2 style:`{
     background: '#FFFFFF',
     color: 'black'
   }`]
@@ -79,14 +91,14 @@
 
   [Panel className:"hide-mobile" row:10 column:4 width:1 height:1 color:"#9ec8ff" /]
 
-  [Caption row:10 column:1 width:3 height:1 style:`{
+  [Caption row:12 column:1 width:3 height:1 style:`{
     background: '#fff',
     color: '#2A2430'
   }`]
     # The sheer difference in the magnitude of numbers with which Manga is outselling Comics speaks volumes
   [/Caption]
 
-  [Caption row:11 column:1 width:2 height:1 style:`{
+  [Caption row:13 column:1 width:2 height:1 style:`{
     background: '#FFFFFF',
     color: 'black'
   }`]
@@ -94,7 +106,7 @@
 
   [/Caption]
 
-  [Caption row:11 column:3 width:2 height:1 style:`{
+  [Caption row:13 column:3 width:2 height:1 style:`{
     background: '#FFFFFF',
     color: 'black'
   }`]
@@ -102,7 +114,7 @@
 
   [/Caption]
 
-  [Caption row:15 column:1 width:2 height:1 style:`{
+  [Caption row:17 column:1 width:2 height:1 style:`{
     background: '#fff',
     color: '#000'
   }`]
@@ -110,14 +122,14 @@
 
   [/Caption]
 
-  [Caption row:16 column:3 width:2 height:1 style:`{
+  [Caption row:18 column:3 width:2 height:1 style:`{
     background: '#fff',
     color: '#000'
   }`]
     ###To answer that we should first look at the gender rations in Comics and Manga
   [/Caption]
 
-  [Caption row:18 column:1 width:3 height:1 style:`{
+  [Caption row:20 column:1 width:3 height:1 style:`{
     background: '#FFFFFF',
     color: 'black'
   }`]
@@ -125,7 +137,7 @@
 
   [/Caption]
 
-  [Caption row:20 column:2 width:3 height:1 style:`{
+  [Caption row:22 column:2 width:3 height:1 style:`{
     background: '#FFFFFF',
     color: 'black'
   }`]
@@ -133,7 +145,7 @@
 
   [/Caption]
 
-  [Caption row:22 column:1 width:4 height:2 style:`{
+  [Caption row:24 column:1 width:4 height:2 style:`{
     background: '#FFFFFF',
     color: 'black',
     padding: '0 100px'
@@ -142,7 +154,7 @@
   [/Caption]
   
 
-  [Caption row:24 column:1 width:4 height:2 style:`{
+  [Caption row:26 column:1 width:4 height:2 style:`{
     background: '#FFFFFF',
     color: 'black',
     padding: '0 100px'
