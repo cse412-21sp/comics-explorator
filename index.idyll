@@ -138,6 +138,15 @@
     color: 'black',
     padding: '0 100px'
   }`]
+  [TableauEmbed link:"https://public.tableau.com/views/malevsfemale_comics/Sheet3?:language=en-US&:display_count=n&:origin=viz_share_link" width:"106%" height:"500"/]
+  [/Caption]
+  
+
+  [Caption row:24 column:1 width:4 height:2 style:`{
+    background: '#FFFFFF',
+    color: 'black',
+    padding: '0 100px'
+  }`]
 
 
     [h3] As we see Manga has a noticeably bigger ratio of females to males. That is because Manga targets larger demographics.
