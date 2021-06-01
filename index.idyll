@@ -16,7 +16,7 @@
   [/Caption]
 
   [Caption row:2 column:1 width:4 height:1 style:`{
-    background: '#FFFFFF',
+    background: '#68c4a4',
     color: 'black',
     padding: '0 100px'
   }`]
@@ -168,7 +168,7 @@
 
   [Caption row:30 column:1 width:4 height:2 style:`{
     background: '#FFFFFF',
-    color: 'black',
+    color: 'green',
     padding: '0 100px'
   }`]
 
