@@ -29,7 +29,7 @@
     color: 'black'
   }`]
 
-    [ObservableEmbed link:"https://observablehq.com/embed/@wyzxxywl/globalcomicsmarket?cells=leg%2Cchart"width:"110%" height:"650"/]
+    [ObservableEmbed link:"https://observablehq.com/embed/@wyzxxywl/globalcomicsmarket?cells=title%2Cleg%2Cchart"width:"110%" height:"650"/]
 
   [/Caption]
 
