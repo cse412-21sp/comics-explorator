@@ -21,7 +21,7 @@
     padding: '0 100px'
   }`]
 
-    ### Comic books are still very popular around the world, but in the recent decades there has been a shift as to what the readers like more
+    ### Comic books are still very popular around the world, but in the recent decades there has been a shift as to what the readers like more.
     ### Firstly, let's take a look at the global sales
   [/Caption]
   [Caption row:3 column:2 width:3 height:2 style:`{
@@ -29,7 +29,7 @@
     color: 'black'
   }`]
 
-    [ObservableEmbed link:"https://observablehq.com/embed/@wyzxxywl/globalcomicsmarket?cells=chart"width:"110%" height:"650"/]
+    [ObservableEmbed link:"https://observablehq.com/embed/@wyzxxywl/globalcomicsmarket?cells=leg%2Cchart"width:"110%" height:"650"/]
 
   [/Caption]
 
@@ -39,23 +39,28 @@
     In fact, Japan's digital comics revenues are bigger than the revenue from print and digital in the US combined
   [/Caption]
 
-  [Caption row:5 column:1 width:2 height:2 style:`{
+  [Caption row:5 column:4 width:1 height:4 style:`{background: 'rgb(88, 214, 141)'}`]
+    ## A closer look at the largest Markets of Eastern Countries and Western Countries
+    While digital comics sales in North America remain stable, the sales in Japan is escalating.
+  [/Caption]
+
+  [Caption row:5 column:1 width:3 height:2 style:`{
     background: '#FFFFFF',
     color: 'black'
   }`]
-  [TableauEmbed link:"https://public.tableau.com/views/Comics-NA-Sales/Dashboard1?:language=zh-CN&:display_count=n&:origin=viz_share_link" width:"110%" height:"360"/]
+  [TableauEmbed link:"https://public.tableau.com/views/Comics-NA-Sales/Sheet1?:language=zh-CN&:display_count=n&:origin=viz_share_link" width:"106%" height:"500"/]
 
   [/Caption]
 
-  [Caption row:5 column:3 width:2 height:2 style:`{
+  [Caption row:7 column:1 width:3 height:2 style:`{
     background: '#FFFFFF',
     color: 'black'
   }`]
-  [TableauEmbed link:"https://public.tableau.com/views/JapanComicsMarketSales/Dashboard12?:language=zh-CN&:display_count=n&:origin=viz_share_link" width:"110%" height:"360"/]
+  [TableauEmbed link:"https://public.tableau.com/views/JapanComicsMarketSales/Sheet1?:language=zh-CN&:display_count=n&:origin=viz_share_link" width:"106%" height:"500"/]
 
   [/Caption]
 
-  [Caption row:7 column:1 width:4 height:1 style:`{
+  [Caption row:9 column:1 width:4 height:1 style:`{
     background: '#FFFFFF',
     color: 'black',
     padding: '0 100px'
@@ -69,7 +74,7 @@
 
   [/Caption]
 
-  [Caption row:8 column:1 width:4 height:2 style:`{
+  [Caption row:10 column:1 width:4 height:2 style:`{
     background: '#FFFFFF',
     color: 'black'
   }`]
@@ -77,12 +82,12 @@
     [ObservableEmbed link:"https://observablehq.com/embed/@rodion/comics-vs-manga-popularity-worlwide?cells=title%2Ccell%2Cchart" width:"100%" height:"600"/]
   [/Caption]
 
-  [Caption row:10 column:1 width:1 height:2 style:`{background: 'rgb(255, 140, 140)'}`]
+  [Caption row:12 column:1 width:1 height:2 style:`{background: 'rgb(255, 140, 140)'}`]
     ## Popularity Trends in the US
     Manga has been overtaking American Comics even in the US
   [/Caption]
 
-  [Caption row:10 column:2 width:3 height:2 style:`{
+  [Caption row:12 column:2 width:3 height:2 style:`{
     background: '#FFFFFF',
     color: 'black'
   }`]
@@ -91,14 +96,14 @@
 
   [Panel className:"hide-mobile" row:10 column:4 width:1 height:1 color:"#9ec8ff" /]
 
-  [Caption row:12 column:1 width:3 height:1 style:`{
+  [Caption row:14 column:1 width:4 height:1 style:`{
     background: '#fff',
     color: '#2A2430'
   }`]
     # The sheer difference in the magnitude of numbers with which Manga is outselling Comics speaks volumes
   [/Caption]
 
-  [Caption row:13 column:1 width:2 height:1 style:`{
+  [Caption row:15 column:1 width:2 height:1 style:`{
     background: '#FFFFFF',
     color: 'black'
   }`]
@@ -106,7 +111,7 @@
 
   [/Caption]
 
-  [Caption row:13 column:3 width:2 height:1 style:`{
+  [Caption row:15 column:3 width:2 height:1 style:`{
     background: '#FFFFFF',
     color: 'black'
   }`]
@@ -114,7 +119,7 @@
 
   [/Caption]
 
-  [Caption row:17 column:1 width:2 height:1 style:`{
+  [Caption row:19 column:1 width:2 height:1 style:`{
     background: '#fff',
     color: '#000'
   }`]
@@ -122,14 +127,14 @@
 
   [/Caption]
 
-  [Caption row:18 column:3 width:2 height:1 style:`{
+  [Caption row:20 column:3 width:2 height:1 style:`{
     background: '#fff',
     color: '#000'
   }`]
     ###To answer that we should first look at the gender rations in Comics and Manga
   [/Caption]
 
-  [Caption row:20 column:1 width:3 height:1 style:`{
+  [Caption row:22 column:1 width:3 height:1 style:`{
     background: '#FFFFFF',
     color: 'black'
   }`]
@@ -137,7 +142,7 @@
 
   [/Caption]
 
-  [Caption row:22 column:2 width:3 height:1 style:`{
+  [Caption row:24 column:2 width:3 height:1 style:`{
     background: '#FFFFFF',
     color: 'black'
   }`]
@@ -145,7 +150,7 @@
 
   [/Caption]
 
-  [Caption row:24 column:1 width:4 height:2 style:`{
+  [Caption row:26 column:1 width:4 height:2 style:`{
     background: '#FFFFFF',
     color: 'black',
     padding: '0 100px'
@@ -154,7 +159,7 @@
   [/Caption]
   
 
-  [Caption row:26 column:1 width:4 height:2 style:`{
+  [Caption row:28 column:1 width:4 height:2 style:`{
     background: '#FFFFFF',
     color: 'black',
     padding: '0 100px'
