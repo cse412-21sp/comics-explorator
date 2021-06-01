@@ -118,7 +118,7 @@
     background: '#fff',
     color: '#000'
   }`]
-    ##..so why do people seem like Manga more now?
+    ##..so why do people seem to like Manga more now?
 
   [/Caption]
 
@@ -126,7 +126,7 @@
     background: '#fff',
     color: '#000'
   }`]
-    ###To answer that we should first look at the gender rations in Comics and Manga
+    ###To answer that we should first look at the gender ratios of characters in Comics and Mangas
   [/Caption]
 
   [Caption row:20 column:1 width:3 height:1 style:`{
@@ -145,29 +145,31 @@
 
   [/Caption]
 
-  [Caption row:24 column:1 width:4 height:2 style:`{
-    background: '#FFFFFF',
-    color: 'black',
-    padding: '0 100px'
+  [Caption row:24 column:1 width:4 height:1 style:`{
+    background: '#fff',
+    color: '#000'
   }`]
-  [TableauEmbed link:"https://public.tableau.com/views/malevsfemale_comics/Sheet3?:language=en-US&:display_count=n&:origin=viz_share_link" width:"106%" height:"500"/]
+    ###As we see Manga has a noticeably bigger ratio of females characters. This is because Manga targets larger demographics. To illustrate this point further, take a look at the amount of genres that Manga offers
   [/Caption]
-  
 
   [Caption row:26 column:1 width:4 height:2 style:`{
     background: '#FFFFFF',
     color: 'black',
     padding: '0 100px'
   }`]
+  [TableauEmbed link:"https://public.tableau.com/views/popularmangagenres/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link" width:"106%" height:"500"/]
+  [/Caption]
+  
+
+  [Caption row:28 column:1 width:4 height:2 style:`{
+    background: '#FFFFFF',
+    color: 'black',
+    padding: '0 100px'
+  }`]
 
 
-    [h3] As we see Manga has a noticeably bigger ratio of females to males. That is because Manga targets larger demographics.
-    While American Comics mostly targets males, Manga also targets females with Josei and Shojo genres. Besides that Manga doesn't only
-    include stories about superheroes, but also sports, detectives, fantasy, comedy, etc. [/h3]
-
-
-    [h2]In other words, Manga is much more diverse and appealing to a broader demographics[/h2]
-
+    // [h2]In other words, Manga is much more diverse and appealing to a broader demographics[/h2]
+    ![HeroBattle](./static/images/super.png)
   [/Caption]
 
 [/div]
