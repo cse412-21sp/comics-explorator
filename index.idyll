@@ -165,8 +165,22 @@
   [TableauEmbed link:"https://public.tableau.com/views/popularmangagenres/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link" width:"106%" height:"500"/]
   [/Caption]
   
+    [Caption row:30 column:1 width:4 height:2 style:`{
+    background: '#FFFFFF',
+    color: 'black',
+    padding: '0 100px'
+  }`]
+  [TableauEmbed link:"https://public.tableau.com/views/Genres_16225976157160/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link" width:"106%" height:"500"/]
+  [/Caption]
 
-  [Caption row:30 column:1 width:4 height:2 style:`{
+  [Caption row:32 column:1 width:4 height:1 style:`{
+    background: 'rgb(255,255,204)',
+    color: '#000'
+  }`]
+    ###Bottom Line, Eastern cultures seem more digitized as we see in their preferences of comics consumption and tend to cater a wider range of audiences.
+  [/Caption]
+
+  [Caption row:34 column:1 width:4 height:2 style:`{
     background: '#FFFFFF',
     color: 'green',
     padding: '0 100px'
@@ -176,6 +190,8 @@
     // [h2]In other words, Manga is much more diverse and appealing to a broader demographics[/h2]
   ![HeroBattle](./static/images/super.png)
   [/Caption]
+
+
 
 [/div]
 
