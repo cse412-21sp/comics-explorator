@@ -94,8 +94,6 @@
   ![example](./static/images/ustrends.jpg)
   [/Caption]
 
-  [Panel className:"hide-mobile" row:10 column:4 width:1 height:1 color:"#9ec8ff" /]
-
   [Caption row:14 column:1 width:4 height:1 style:`{
     background: 'rgb(255, 178, 102)',
     color: '#2A2430'
@@ -188,7 +186,7 @@
 
 
     // [h2]In other words, Manga is much more diverse and appealing to a broader demographics[/h2]
-  ![HeroBattle](./static/images/super.png)
+  ![HeroBattle](./static/images/wall.jpg)
   [/Caption]
 
 
